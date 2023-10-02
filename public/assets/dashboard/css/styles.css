@@ -1,0 +1,164 @@
+section.content {
+    padding-bottom: 1.5rem !important;
+}
+
+.control-sidebar.control-sidebar-dark {
+    bottom: 0 !important;
+}
+
+.error_callout {
+    position: relative;
+}
+
+.error_callout span {
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    cursor: pointer;
+}
+
+#template-wrap {
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px;
+}
+
+aside.main-sidebar li.nav-item i:not(.fa-angle-left) {
+    width: 25px;
+}
+
+.color_scheme {
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.checkbox_wrap .custom-control-label {
+    font-weight: 400 !important;
+}
+
+.draggable_list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.draggable_list li {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 5px 15px;
+    cursor: grab;
+    position: relative;
+}
+
+.draggable_list li:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f338";
+    font-weight: 900;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.draggable_list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.order_update_note {
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.form_data_list a {
+    display: inline-block;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.date_filter {
+    cursor: pointer;
+    margin-left: 7px;
+}
+
+.date_filter.selected i {
+    transform: scale(1.5);
+}
+
+.user-panel img {
+    height: 2.1rem;
+    width: 2.1rem;
+}
+
+.select2-selection__choice {
+    background-color: #007bff !important;
+}
+
+.bg_cover {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide_img {
+    width: 100px;
+    height: 50px;
+}
+
+.actions_td {
+    position: relative;
+}
+
+.actions_btn_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.actions_btn_wrap div {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data_delete {
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.expanded_label {
+    border-radius: 5px;
+    padding: 1px 5px;
+}
+
+#data-wrap .form_data_list a i {
+    line-height: inherit;
+}
+
+#data-wrap .form_data_list a:not(:first-child) {
+    margin-left: 15px;
+}
+
+#data-wrap .form_data_list span {
+    cursor: pointer;
+}
